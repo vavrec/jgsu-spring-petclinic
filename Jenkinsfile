@@ -11,13 +11,13 @@ pipeline{
             }
         }
         
-        stages('Test'){
+        stage('Test'){
             steps{
                 echo "Test step"
             }
         }
 
-        stages('Deploy'){
+        stage('Deploy'){
             steps{
                 echo "Deploy step"
             }
