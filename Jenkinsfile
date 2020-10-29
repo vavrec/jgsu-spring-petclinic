@@ -22,7 +22,7 @@ pipeline{
         stage('Deploy'){
             steps{
                 echo "Deploy step"
-                bat 'pwd'
+                bat 'cd'
             }
         }
     }
